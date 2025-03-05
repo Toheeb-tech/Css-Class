@@ -1,3 +1,23 @@
 p{
     text-align: center;
 }
+a{
+    color: black;
+}
+.jos{
+    background-color:purple;
+    justify-content:center ;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 1px;
+}
+.kad{
+    background-color:wheat ;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    color:white;
+}

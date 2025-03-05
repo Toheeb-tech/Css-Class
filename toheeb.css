@@ -59,7 +59,7 @@ h1{
 }
 a{
     text-decoration: none;
-    color: white;
+    color:black;
 }
 p{
     color: white;
@@ -82,4 +82,21 @@ input[type="password"]{
 input::placeholder{
     color: white;
 }
+.hat{
+    background-color: burlywood;
+    justify-content:center ;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 1px;
+}
+.me{
+    background-color:white ;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+}
+
 
