@@ -1,0 +1,87 @@
+.first td:nth-child(odd){
+    background: black;
+    
+}
+.second td:nth-child(even){
+    background: black;
+}
+.third td:nth-child(odd){
+    background: black;
+}
+.fourth td:nth-child(even){
+    background: black;
+}
+.fifth td:nth-child(odd){
+    background: black;
+}
+.sixth td:nth-child(even){
+    background: black;
+}.seventh td:nth-child(odd){
+    background: black;
+}.eight td:nth-child(even){
+    background: black;
+}
+.ninth td:nth-child(odd){
+    background: black;
+}
+.tenth td:nth-child(even){
+    background: black;
+}
+.first td:nth-child(1){
+    background: red;
+}
+.second td:nth-child(2){
+    background: red;
+}
+.third td:nth-child(3){
+    background: red;
+}
+.fourth td:nth-child(4){
+    background:red;
+}
+.fifth td:nth-child(5){
+    background: red;
+}
+.sixth td:nth-child(6){
+    background: red;
+}.seventh td:nth-child(7){
+    background: red;
+}.eight td:nth-child(8){
+    background: red;
+}
+.ninth td:nth-child(9){
+    background: red;
+}
+.tenth td:nth-child(10){
+    background: red;
+}
+table{
+    border: 20px ridge gold;
+    box-shadow: inset 0px 0px 8px;
+    padding: 3px;
+}
+td{
+    box-shadow: inset 0px 0px 10px 0.1px black;
+}.kad{
+    background:wheat ;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    color:purple;
+}
+ol{
+    background: black;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: fit-content;
+}
+a{
+    text-decoration: none;
+}
+div{
+    display: flex;
+    justify-content: center;
+}

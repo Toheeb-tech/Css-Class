@@ -59,6 +59,7 @@ textarea{
 }
 a{
     color: white;
+    text-decoration: none;
 }
 .lis{
     background-color:royalblue;
@@ -70,10 +71,10 @@ a{
     margin: 1px;
 }
 .los{
-    background-color:yellow ;
+    background-color:white ;
     width: fit-content;
     padding: 10px;
     margin: 10px;
     height: fit-content;
-    color:red;
+    color:blue;
 }

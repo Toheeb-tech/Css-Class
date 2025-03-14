@@ -1,37 +1,45 @@
 body{
-    background-image: url(tt\ 121.JPG);
+    background-image: url(tt\ 172.JPG);
     background-size:cover;
     
 }
 form{
-    background-color: rgba(255, 255, 255, 0.6);
-    width:500px;
+    background-color: rgba(194, 191, 191, 0.4);
+    width:400px;
     margin: 200px auto;
-    padding: 100px 50px;
-    border-radius: 10px;
+    padding:20px;
+    /* border-radius: 10px; */
+    box-shadow: inset 0px 0px 30px 10px rgba(247, 245, 245, 0.3);
+    
         
 }
+label{
+    color: white;
+}
 input{
-    margin:10px;
-    padding:10px;
+    padding:13px;
     outline: none;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    width:100%;
+    background-color: rgba(191, 191, 191, 0.562);
     outline: none;
     border: none;
     border-radius: 10px;
     box-sizing: border-box;
+    box-shadow: inset 0px 0px 10px 3px rgba(247, 245, 245, 0.562);
 }
 button{
-    background-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    background-color: rgba(191, 191, 191, 0.342);
     outline: none;
     border: none;
     width: 100%;
-    padding: 10px;
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 3px rgba(247, 245, 245, 0.562);
     
 }
 .farm{
-    background-color: red;
+    background-color:black;
     justify-content:center ;
     flex-direction: row;
     align-items: center;
@@ -40,10 +48,13 @@ button{
     margin: 1px;
 }
 .maize{
-    background-color:aqua;
+    background-color:white;
     width: fit-content;
     padding: 10px;
     margin: 10px;
     height: fit-content;
-    color:blue;
+    color:black;
+}
+a{
+    text-decoration: none;
 }

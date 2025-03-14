@@ -19,5 +19,8 @@ a{
     padding: 10px;
     margin: 10px;
     height: fit-content;
-    color:white;
+    color:purple;
+}
+a{
+    text-decoration: none;
 }

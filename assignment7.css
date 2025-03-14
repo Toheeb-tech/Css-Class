@@ -1,0 +1,100 @@
+.rom{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin: 5px;
+
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    height: 250px;
+    background: crimson;
+    scrollbar-width: none;
+    overflow: scroll;
+    box-shadow: inset 0px 0px 20px black;
+}
+.ddd{
+    margin: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white ;
+    margin: 10px;
+    padding: 100px
+    justify-content: ;
+}
+.cool{
+    background-color: yellow;
+    margin: 10px;
+}
+.warm{
+    background-color: blue;
+    margin: 10px;
+}
+.cold{
+    background-color: cadetblue;
+    margin: 10px;
+}
+.hot{
+    background-color: wheat;
+    margin: 10px;
+}
+.side{
+    background-color: white;
+    margin: 10px;
+}
+.drop{
+    background-color: aqua;
+    margin: 10px;
+}
+.right{
+    background-color: aquamarine;
+    margin: 10px;
+}
+.left{
+    background-color: azure;
+    margin: 10px;
+}
+.up{
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+.by{
+    background-color: bisque;
+    margin: 10px;
+}
+.down{
+    background-color: yellow;
+    margin:10px ;
+}
+.kad{
+    background:wheat ;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    color:purple;
+}
+.job{
+    background-color: black;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+.pad{
+    margin: 10px;
+}
