@@ -1,0 +1,160 @@
+.first{
+    display: flex;
+    flex-direction: row;
+    background:#a7cd40;
+    justify-content:space-evenly;
+    padding: 15px;
+    text-align: center;
+}
+.child{
+    /* background: red; */
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.second{
+    margin: 10px;
+}
+.third{
+    margin: 10px;
+}
+
+.theo{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 70px;
+}
+@keyframes theo{
+    0%{
+        padding: 40px;
+    }
+    100%{
+        padding: 10px;
+    }
+}
+
+.leo{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.top{
+    margin-left: 40px;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.kad{
+    background:#a7cd40;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    color:black;
+}
+/* ol{
+    background:#a7cd40;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+} */
+a{
+    text-decoration: none;
+}
+button{
+    /* margin-left:40px ; */
+    background: orange;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.smile{
+    
+}
+.image{
+    text-align: center;
+    width: 70px;
+    box-sizing:border-box;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 100%;
+    animation-name:img;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+}
+@keyframes img{
+    0%{
+        /* padding: 10px; */
+        box-shadow: 0px 0px 10px black;
+    }
+    100%{
+            box-shadow: 0px 0px 25px black;
+        /* padding: 05px; */
+    }
+}
+/* p{
+    text-align: center;
+} */
+.top{
+    display: flex;
+    justify-content: center;
+}
+.pan{
+    width: 100%;
+    cursor: cell;
+    list-style-type: none;
+    padding: 0px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    
+}
+.mymy .li{
+    display: block;
+    padding: 5px 2px;
+    /* width: 200px; */
+
+}
+.goodmama{
+    margin-top: 5px;
+    width: 200px;
+    background:yellow;
+    padding: 0px;
+    list-style-type: none;
+    visibility: hidden;
+    position: absolute;
+    align-items: end;
+    
+}
+.pan:hover .goodmama{
+    background-color:red;
+    visibility: visible;
+}
+.soap:hover{
+    background-color: white;
+}
+.soap{
+    transition-property: padding box-shadow;
+    transition-duration:0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+img{
+    width: 20px;
+}
+.dash{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background:#a7cd40 ;
+}
