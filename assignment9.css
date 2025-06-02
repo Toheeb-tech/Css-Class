@@ -76,12 +76,11 @@ button{
 }
 .image{
     text-align: center;
-    width: 70px;
+    width: 60px;
     box-sizing:border-box;
     box-shadow: 0px 0px 10px black;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    left: 40px;
     border-radius: 100%;
     animation-name:img;
     animation-duration: 1s;
@@ -154,18 +153,15 @@ button{
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
-a{
+a:link{
     text-decoration: none;
     color: black;
 }
-/* .all{
-    background:#a7cd40 ; 
-    justify-content:space-around;
-    display: flex;
-    flex-direction: row; 
-    padding: 0px;
-    text-align: center;
-} */
+.all{
+    background: yellowgreen;
+    padding: 1px;
+    margin: 9px;
+}
 .main{
     display: flex;
     margin-top:25px;
@@ -178,6 +174,8 @@ a{
     
 }
 .soa:hover{
-    background-color: yellow;
+    background-color:white;
     margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }

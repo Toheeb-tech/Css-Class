@@ -4,120 +4,215 @@
     <link rel="stylesheet" href="Assignment6.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Combine Div </title>
+    <title>A soapne Div </title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <style>
+        
+    
+        
+        .fornav{
+            background:white;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-evenly; */
+            align-items: center;
+            margin-left:65px;
+            /* box-shadow: 0px 5px 10px black; */
+        }
+        .item{
+            /* display: inline-block; */
+            padding: 5px;
+            margin: 5px;
+            color:black;
+        }
+        .lil{
+            display: inline;
+            margin: 20px;
+            color:black;
+            font-size: 14px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            font-family: serif;
+            text-decoration: none;
+        }
+        ul{
+            color:black;
+            
+        }
+        .dro{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* display: inline-block; */
+        }
+        .parent{
+            background:white;
+            list-style-type: none;
+            padding: 0px;
+            width: fit-content;
+            color:black;
+            /* box-shadow: 0px 5px 10px black; */
+        }
+        .dropelement{
+            padding: 0px;
+            list-style-type: none;
+            background:white;
+            visibility: hidden;
+            position: absolute;
+            width: 200px;
+            /* box-shadow: 0px 5px 10px black; */
+        }
+        .parent:hover .dropelement{
+            visibility: visible;
+        }
+        .parent:hover li:hover{
+            color: black;
+            /* background-color:white;
+            padding: 10px; */
+            /* font-size: 30px; */
+        }
+    </style>
 </head>
-<body class="body">
-    <img src="Untitled-1.jpg" alt="" class="faint">
-    <div class="com">
-        <ol class="comb">
-            <li class="combin"><a href="assignment1.html">Home</a></li>
-            <li class="combi"><a href="assignment2.html">About Us</a></li>
-            <li class="combi"><a href="index.html">Contact Us</a></li>
-            <li class="combi"><a href="assignment.html">Product</a></li>
-            <li class="combi"><a href="assignment5.html"> Service</a></li>
-            <li class="combi"><a href="Assignment6.html">Service</a></li>
-            <li class="combi"><a href="assignment7.html">Google</a></li>
-            <li class="combi"><a href="ludo.html">Ludo</a></li>
-            <li class="combi"><a href="assignment8.html">Checkers</a></li>
-            <li class="combi"> <a href="assignment9.html">Animation</a></li>
-        </ol>
-    </div>
-
-    <div class="dat">
-        <ol class="data">
-            <li><img src="Untitled-.jpg" alt="" class="dataa"></li>
-            <li class="subscription">Online Business Banking</li>
-        </ol>
-    </div>
-    <div>
-        <input type="text" placeholder="Welcome To" class ="those"><br>
-        <input type="text" placeholder="FCMB Online" class="those this"><br>
-        <label for="" class="nad">Your User ID and Password are confidetial NEVER disclose them to anyone</label><br>
-        <label for="" class="nadd">Your Session Time Out! KIndly Login Again To use the Application</label>
-    </div>    
-
-    <div class="date">
-        <div class="dating">
-            <form action="">
-                    <label for="">Login Name</label><br>
-                    <input type="text"><br><br>
-                    <label for="">Password</label><br>
-                    <input type="password"><br><br>
-                    <input type="checkbox" > <label for="" class="checkbox">Remember me on this computer</label><br><br>
-                    <button class="cab">Login</button><a href="#">  Click Here to Register...</a>
-            </form>
+<body>
+    <div class="fornav">
+        <div class="item">
+            <img src="fcmb.jpg" alt="" width="55px" height="52px" >
         </div>
-
         <div>
-            <img src="fcmb.jpg" alt="" class="dad">
+            <ul class="dro">
+                <li class="lil"><a href="index.html">HOME</a></li>
+                <li class="lil"><a href="assignment.html">ABOUT US</a></li>
+                <li class="lil"><a href="assignment1.html">CONTACT</a></li>
+                <li class="lil"><a href="assignment2.html">PRODUCT</a></li>
+                <li class="lil"><a href="assignment5.html">SERVICE</a></li>
+            </ul>
         </div>
-
-        <div class="oxygen">
-            <p class="food">Having Trouble <i>Signing in?</i> <br> Call us or send us an email
-            <h6 class="fool"><b>Email: customerservice@gmail.com <br> <br>Telephone: 07003290000 or 01-2798800</b></h6>
-         <h1 class="fol">How To secure your account</h1>
-        </p>
-        <img src="lock.jpg" alt="" class="Untitled-">
-        <p class="foool"><b>FCMB will never solicit your personal or security information by<br>
-            email or by phone. Please refer to our security page.</b></p>
-       <button class="carbon">FIND OUT MORE</button>
-        </div>
-    </div>
-
-    <div class="datt">
-        <div class="dem">
-            <ol class="fathia">
-                <li class="dos">Putting your <br> banking needs <br> first
+    
+        <div class="drop">
+            <ul class="parent">
+                <li class="dropdown">View More <i class="bi bi-arrow-down"></i>
+                    <ul class="dropelement">
+                        <li><a href="Assignment6.html">FCMB</a></li>
+                        <li><a href="assignment7.html">1ST TESTIMONIAL</a></li>
+                        <li><a href="assignment8.html">CHECKERS</a></li>
+                        <li><a href="assignment9.html">SMILE</a></li>
+                        <li><a href="ludo.html">LUDO</a></li>
+                        <li><a href="resp testimo.html">TESTIMONIAL</a></li>
+                    </ul>
                 </li>
-            </ol>
+            </ul>
         </div>
-
-        <div class="dead">
-            <ol class="fate">
-                <img src="house.jpg" alt="" class="house">
-                <li class="fated">Where to find a branch</li>
-                <li class="fated">Where to find ATM</li>
-            </ol>
-        </div>
-
-        <div class="dead">
-            <ol class="fate">
-                <img src="mouse.jpg" alt="" class="mouse">
-                <li class="fated">Open an Account Online</li>
-                <li class="fated">Make Payment Online</li>
-                <li class="fated">E-Statements</li>
-                <li class="fated">How to use the internet banking</li>
-            </ol>
-        </div>
-
-        <div class="dead">
-            <ol class="fatee">
-                <img src="tel.jpg" alt="" class="tel">
-                <li class="fated">Telephone banking</li>
-                <li class="fated">Send us feedback by mail</li>
-            </ol>
-        </div>
-
         
+        <!-- <div class="menu drop">
+            <i class="bi bi-menu-button-wide"></i>
+        </div>     -->
+                
     </div>
-    <div class="bus">
-        <div>
-            <ol class="cabstar">
-                <li class="cabs"> <a href="#">Connect with us:</a></li>
-                <li><i class="bx bxl/facebook"></i></li>
+    <div class="pause">
+        <div class="dat">
+            <ol class="data">
+                <li><img src="Untitled-.jpg" alt="" class="dataa"></li>
+                <li class="subscription">Online Business Banking</li>
             </ol>
         </div>
+        <div>
+            <input type="text" placeholder="Welcome To" class ="those"><br>
+            <input type="text" placeholder="FCMB Online" class="those this"><br>
+            <label for="" class="nad">Your User ID and Password are confidetial NEVER disclose them to anyone</label><br>
+            <label for="" class="nadd">Your Session Time Out! KIndly Login Again To use the Application</label>
+        </div>    
+
+        <div class="date">
+            <div class="dating">
+                <form action="">
+                        <label for="">Login Name</label><br>
+                        <input type="text"><br><br>
+                        <label for="">Password</label><br>
+                        <input type="password"><br><br>
+                        <input type="checkbox" > <label for="" class="checkbox">Remember me on this computer</label><br><br>
+                        <button class="cab">Login</button><a href="#">  Click Here to Register...</a>
+                </form>
+            </div>
+
+            <div>
+                <img src="fcmb.jpg" alt="" class="dad">
+            </div>
+
+            <div class="oxygen">
+                    <p class="food">Having Trouble <i>Signing in?</i> <br> Call us or send us an email
+                    <h6 class="fool"><b>Email: customerservice@gmail.com <br> <br>Telephone: 07003290000 or 01-2798800</b></h6>
+                <h1 class="fol">How To secure your account</h1>
+                </p>
+                <img src="lock.jpg" alt="" class="Untitled-">
+                <p class="foool"><b>FCMB will never solicit your personal or security information by<br>
+                    email or by phone. Please refer to our security page.</b></p>
+                <button class="carbon">FIND OUT MORE</button>
+            </div>
+        </div>
+
+        <div class="datt">
+            <div class="dem">
+                <ol class="fathia">
+                    <li class="dos">Putting your <br> banking needs <br> first
+                    </li>
+                </ol>
+            </div>
+
+            <div class="dead">
+                <ol class="fate">
+                    <img src="house.jpg" alt="" class="house">
+                    <li class="fated">Where to find a branch</li>
+                    <li class="fated">Where to find ATM</li>
+                </ol>
+            </div>
+
+            <div class="dead">
+                <ol class="fate">
+                    <img src="mouse.jpg" alt="" class="mouse">
+                    <li class="fated">Open an Account Online</li>
+                    <li class="fated">Make Payment Online</li>
+                    <li class="fated">E-Statements</li>
+                    <li class="fated">How to use the internet banking</li>
+                </ol>
+            </div>
+
+            <div class="dead">
+                <ol class="fatee">
+                    <img src="tel.jpg" alt="" class="tel">
+                    <li class="fated">Telephone banking</li>
+                    <li class="fated">Send us feedback by mail</li>
+                </ol>
+            </div>
+
+            
+        </div>
+        <div class="bus">
+            <div>
+                <ol class="cabstar">
+                    <li class="cabs"> <a href="#">Connect with us:</a></li>
+                    <li><i class="bx bxl/facebook"></i></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    
         
-        <!-- <div>
-            <ol>
-                <li>The site ensure that all information send to us via the WORLD WIDE WEB
-                    are encrypted. You can confirm the information provided by our certificate
-                    issuer by clicking on the padlock icon on your address bar.
-                    2019@First city Monument Bank Plc. A member of First city Groups</li>
-            </ol>
-        </div> -->
+    <div class="bab">
+        <ol class="babe">
+            <li>The site ensure that all information send to us via the WORLD WIDE WEB
+                are encrypted. You can confirm the information provided by our certificate
+                issuer by clicking on the padlock icon on your address bar.
+                2019@First city Monument Bank Plc. A member of First city <br> Groups
+            </li>
+        </ol>
+    </div>
+        
     
 </body>
 </html>

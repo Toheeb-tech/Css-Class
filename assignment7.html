@@ -5,28 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonial</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        
+        .fornav{
+            background:white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 10px;
+            box-shadow: 0px 5px 10px black;
+        }
+        .item{
+            /* display: inline-block; */
+            padding: 5px;
+            margin: 5px;
+            color:black;
+        }
+        .lil{
+            display: inline;
+            margin: 20px;
+            color:black;
+            font-size: 14px;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            font-family: serif;
+            text-decoration: none;
+        }
+        ul{
+            color:black;
+            
+        }
+        .drop{
+            display: inline-block;
+        }
+        .parent{
+            background:white;
+            list-style-type: none;
+            padding: 0px;
+            width: fit-content;
+            color:black;
+            box-shadow: 0px 5px 10px black;
+        }
+        .dropelement{
+            padding: 0px;
+            list-style-type: none;
+            background:white;
+            visibility: hidden;
+            position: absolute;
+            width: 200px;
+            box-shadow: 0px 5px 10px black;
+        }
+        .parent:hover .dropelement{
+            visibility: visible;
+        }
+        .parent:hover li:hover{
+            color: black;
+            background-color:white;
+            padding: 10px;
+            /* font-size: 30px; */
+        }
+    </style>
             
 </head>
 <body>
-    <div class="all">
-        <ol class="main">
-            <li class="soa"><a href="assignment1.html">LETTER</a></li>
-            <li class="soa"><a href="assignment2.html">BONO WEB</a></li>
-            <li class="soa"><a href="index.html">FORM</a></li>
-            <li class="soa"><a href="assignment.html">2nd FORM</a></li>
-            <ul class="mymy">
-                <li><span>✔</span>
-                    <ol class="goodmama">
-                        <li class="soap"><a href="assignment5.html">OPERANIYI</a></li>
-                        <li class="soap"><a href="Assignment6.html">FCMB</a></li>
-                        <li class="soap"><a href="assignment7.html">TESTIMONIAL</a></li>
-                        <li class="soap"><a href="ludo.html">Ludo</a></li>
-                        <li class="soap"><a href="assignment8.html">CHECKERS</a></li>
-                        <li class="soap"><a href="assignment9.html">SMILE</a></li>
-                    </ol>
+    <div class="fornav">
+        <div class="item">
+            <img src="mouse.jpg" alt="" width="52px" height="52px" >
+        </div>
+        <ul class="drop">
+            <li class="lil"><a href="index.html">HOME</a></li>
+            <li class="lil"><a href="assignment.html">CONTACT</a></li>
+            <li class="lil"><a href="assignment1.html">NECO</a></li>
+            <li class="lil"><a href="assignment2.html">SIMPLIFIED</a></li>
+            <li class="lil"><a href="assignment5.html">INNOVATION-PMI</a></li>
+        </ul>
+        <div class="drop">
+            <ul class="parent">
+                <li class="dropdown">View More <i class="bi bi-arrow-down"></i>
+                    <ul class="dropelement">
+                        <li><a href="Assignment6.html">FCMB</a></li>
+                        <li><a href="assignment7.html">1ST TESTIMONIAL</a></li>
+                        <li><a href="assignment8.html">CHECKERS</a></li>
+                        <li><a href="assignment9.html">SMILE</a></li>
+                        <li><a href="ludo.html">LUDO</a></li>
+                        <li><a href="resp testimo.html">TESTIMONIAL</a></li>
+                    </ul>
                 </li>
             </ul>
-        </ol>
+        </div>
+                
     </div>
         
 

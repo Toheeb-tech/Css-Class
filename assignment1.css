@@ -1,9 +1,6 @@
 p{
     text-align: center;
 }
-a{
-    color: black;
-}
 .jos{
     background-color:purple;
     justify-content:center ;
@@ -21,13 +18,14 @@ a{
     height: fit-content;
     color:purple;
 }
-a{
+a:link{
     text-decoration: none;
+    color:black;
 }
 .mymy{
     width: 200px;
     cursor: cell;
-    color:white;
+    color:black;
     list-style-type: none;
     padding: 0px;
     font-size: 20px;
@@ -47,25 +45,21 @@ a{
     visibility: hidden;
     position: absolute;
     text-align: left;
-    background:black;
-    
 }
 .mymy:hover .goodmama{
     /* background-color:red; */
     visibility: visible;
 }
 .soap:hover{
-    background-color:red;
+    background-color:white;
+    color: black;
 }
 .soap{
     transition-property: padding box-shadow;
     transition-duration:0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
-}
-a{
-    text-decoration: none;
-    color:white;
+    color: white;;
 }
 /* .all{
     background:#a7cd40 ; 
@@ -84,10 +78,10 @@ a{
     font-size: 20px;
     font-weight:100;
     font-family:monospace;
-    background: black;
+    /* background: black; */
     
 }
 .soa:hover{
-    background-color:yellow;
     margin: 10px;
+    color: black;
 }

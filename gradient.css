@@ -1,0 +1,74 @@
+.nav{
+    background:linear-gradient(20deg, red, blue);
+    height: 200px;
+    display:flex ;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.nav ul{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    padding:0px;
+    list-style-type: none;
+}
+.nav ul li{
+    padding: 10px;
+    border-bottom:2px dashed whitesmoke;
+    border-radius: 10px;
+    color: white;
+}
+
+.them{
+    background:radial-gradient(circle, blue, purple );
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.them ol{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: black;
+    margin: 10px;
+}
+.them ol li{
+    background:whitesmoke;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 1px;
+
+}
+.but button{
+    background: rgb(0, 255, 200);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+@media screen and (max-width:768px) {
+    .nav{
+        background: linear-gradient(20deg, purple, rgb(0, 140, 255) );
+    }
+    .but button{
+        visibility: visible;
+    }
+    .them ol li{
+        background:whitesmoke;
+        padding: 8px;
+        border-radius: 10px;
+        margin: 1px;
+    
+    }
+    .them ol{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        color: black;
+        margin: 10px;
+    }
+}
